@@ -1,0 +1,25 @@
+PARTY TRIVIA — START HERE
+
+1. Extract the entire ZIP to a normal folder (for example, your Desktop).
+   Don't run it from inside the ZIP preview.
+2. Windows: double-click "Start Trivia.bat".
+   Mac: double-click "Start Trivia.command".
+3. The first launch downloads the game runtime automatically. You don't need
+   to install Node, npm, or any development tools. Internet is needed once.
+4. A browser opens with Display, Host, Player and Grader buttons and a test guide.
+   Keep the launcher's status window open while you test.
+5. To use your phone, connect it to the same Wi-Fi as the computer and scan
+   the QR on the display. If Windows asks about network access, allow private
+   networks. If Wi-Fi blocks phones, test using separate browser tabs instead.
+6. Close the status window when finished. Progress is saved for next time.
+   Use End game, then Restart game in Host controls to start a fresh test.
+
+If a Mac says the launcher cannot be opened, try Control-click > Open.
+If it is still blocked, ask the sender for a hosted browser link.
+
+Supports Windows x64, Apple silicon Macs and Intel Macs. The app is not signed.
+A friend on a different network needs a hosted version; these local links only
+work while your computer is running and everyone is on the same local network.
+
+TESTING.md has the 10-minute walkthrough. To report an issue, send the sender
+what device you used, what you clicked, what happened and a screenshot.

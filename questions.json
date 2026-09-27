@@ -1,0 +1,46 @@
+{
+  "title": "A very good trivia night",
+  "defaultTimeLimitSec": { "choice": 20, "text": 45 },
+  "rounds": [
+    {
+      "title": "The warm-up",
+      "questions": [
+        {
+          "id": "r1q1",
+          "type": "mc",
+          "prompt": "Which planet has the most spectacular rings?",
+          "options": ["Mars", "Saturn", "Venus", "Mercury"],
+          "correct": 1
+        },
+        {
+          "id": "r1q2",
+          "type": "tf",
+          "prompt": "An octopus has three hearts.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Use your words",
+      "questions": [
+        {
+          "id": "r2q1",
+          "type": "short",
+          "prompt": "What is the capital of France?",
+          "answer": "Paris",
+          "acceptable": ["Paris"],
+          "allowPartial": false
+        },
+        {
+          "id": "r2q2",
+          "type": "free",
+          "prompt": "Pitch a terrible new ice cream flavor in one sentence.",
+          "answer": "Full credit for a creative flavor and a pitch. Partial credit for just a flavor.",
+          "maxChars": 300,
+          "allowPartial": true,
+          "points": 1500
+        }
+      ]
+    }
+  ]
+}
