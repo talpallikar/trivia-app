@@ -2,6 +2,12 @@
 
 A single-server party game with a projector display, phone players, remote host controls, and a separate human grader. Built from [the design document](Party%20Trivia%20App%20%E2%80%94%20Requirements%20%26%20Design.md). Supports multiple choice, true/false, short answer, and free response.
 
+## Download for testing
+
+**[Download Party Trivia for Windows or Mac](https://github.com/talpallikar/trivia-app/releases/latest/download/Party-Trivia-Tester.zip)**
+
+Extract the ZIP and double-click **Start Trivia.bat** (Windows) or **Start Trivia.command** (Mac). First launch needs internet; the browser opens with a guided setup. No development tools are needed. Phones must share the computer’s Wi-Fi. See the [tester guide](TESTING.md) for the 10-minute walkthrough.
+
 ## Run locally
 
 Requires Node.js 22 or newer.
